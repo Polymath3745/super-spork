@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/CarsDir/Ford.hpp
+iostream
+-
+
+../src/UtilsDir/add.hpp
+iostream
+-
+
+../src/WeaponsDir/weapon.hpp
+iostream
+-
+
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/main.cpp
+iostream
+-
+Ford.hpp
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/Ford.hpp
+add.hpp
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/add.hpp
+weapon.hpp
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/weapon.hpp
+

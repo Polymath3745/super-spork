@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCarsLib.a  CMakeFiles/CarsLib.dir/Ford.cpp.o
+/usr/bin/ranlib libCarsLib.a

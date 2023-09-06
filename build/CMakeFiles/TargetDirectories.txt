@@ -1,0 +1,14 @@
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles/rebuild_cache.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles/edit_cache.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CMakeFiles/rebuild_cache.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CMakeFiles/edit_cache.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CMakeFiles/MAIN.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CarsDir/CMakeFiles/rebuild_cache.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CarsDir/CMakeFiles/edit_cache.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CarsDir/CMakeFiles/CarsLib.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/UtilsDir/CMakeFiles/rebuild_cache.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/UtilsDir/CMakeFiles/edit_cache.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/UtilsDir/CMakeFiles/UtilsLib.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/WeaponsDir/CMakeFiles/rebuild_cache.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/WeaponsDir/CMakeFiles/edit_cache.dir
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/WeaponsDir/CMakeFiles/WeaponsLib.dir

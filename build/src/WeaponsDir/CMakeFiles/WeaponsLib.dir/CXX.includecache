@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/WeaponsDir/weapon.cpp
+weapon.hpp
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/WeaponsDir/weapon.hpp
+
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/WeaponsDir/weapon.hpp
+iostream
+-
+

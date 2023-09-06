@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/CarsDir/Ford.cpp
+Ford.hpp
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/CarsDir/Ford.hpp
+
+/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/CarsDir/Ford.hpp
+iostream
+-
+
