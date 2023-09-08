@@ -1,4 +1,4 @@
-# Install script for directory: /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src
+# Install script for directory: /home/gabriel/Desktop/C++/super-spork/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CarsDir/cmake_install.cmake")
+  include("/home/gabriel/Desktop/C++/super-spork/build/src/CarsDir/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/UtilsDir/cmake_install.cmake")
+  include("/home/gabriel/Desktop/C++/super-spork/build/src/UtilsDir/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/WeaponsDir/cmake_install.cmake")
+  include("/home/gabriel/Desktop/C++/super-spork/build/src/WeaponsDir/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/gabriel/Desktop/C++/super-spork/build/src/Templates/cmake_install.cmake")
 endif()
 

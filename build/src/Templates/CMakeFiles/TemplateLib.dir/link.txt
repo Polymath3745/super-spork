@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTemplateLib.a  CMakeFiles/TemplateLib.dir/sum.cpp.o
+/usr/bin/ranlib libTemplateLib.a

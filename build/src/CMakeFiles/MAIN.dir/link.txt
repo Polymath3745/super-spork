@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/MAIN.dir/main.cpp.o  -o MAIN  CarsDir/libCarsLib.a UtilsDir/libUtilsLib.a WeaponsDir/libWeaponsLib.a 
+/usr/bin/c++  -g   CMakeFiles/MAIN.dir/main.cpp.o  -o MAIN  CarsDir/libCarsLib.a UtilsDir/libUtilsLib.a WeaponsDir/libWeaponsLib.a Templates/libTemplateLib.a 

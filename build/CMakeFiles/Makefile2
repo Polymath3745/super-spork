@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample
+CMAKE_SOURCE_DIR = /home/gabriel/Desktop/C++/super-spork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build
+CMAKE_BINARY_DIR = /home/gabriel/Desktop/C++/super-spork/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -75,6 +75,7 @@ src/all: src/CMakeFiles/MAIN.dir/all
 src/all: src/CarsDir/all
 src/all: src/UtilsDir/all
 src/all: src/WeaponsDir/all
+src/all: src/Templates/all
 
 .PHONY : src/all
 
@@ -82,6 +83,7 @@ src/all: src/WeaponsDir/all
 src/preinstall: src/CarsDir/preinstall
 src/preinstall: src/UtilsDir/preinstall
 src/preinstall: src/WeaponsDir/preinstall
+src/preinstall: src/Templates/preinstall
 
 .PHONY : src/preinstall
 
@@ -90,6 +92,7 @@ src/clean: src/CMakeFiles/MAIN.dir/clean
 src/clean: src/CarsDir/clean
 src/clean: src/UtilsDir/clean
 src/clean: src/WeaponsDir/clean
+src/clean: src/Templates/clean
 
 .PHONY : src/clean
 
@@ -110,6 +113,24 @@ src/CarsDir/preinstall:
 src/CarsDir/clean: src/CarsDir/CMakeFiles/CarsLib.dir/clean
 
 .PHONY : src/CarsDir/clean
+
+#=============================================================================
+# Directory level rules for directory src/Templates
+
+# Recursive "all" directory target.
+src/Templates/all: src/Templates/CMakeFiles/TemplateLib.dir/all
+
+.PHONY : src/Templates/all
+
+# Recursive "preinstall" directory target.
+src/Templates/preinstall:
+
+.PHONY : src/Templates/preinstall
+
+# Recursive "clean" directory target.
+src/Templates/clean: src/Templates/CMakeFiles/TemplateLib.dir/clean
+
+.PHONY : src/Templates/clean
 
 #=============================================================================
 # Directory level rules for directory src/UtilsDir
@@ -154,16 +175,17 @@ src/WeaponsDir/clean: src/WeaponsDir/CMakeFiles/WeaponsLib.dir/clean
 src/CMakeFiles/MAIN.dir/all: src/CarsDir/CMakeFiles/CarsLib.dir/all
 src/CMakeFiles/MAIN.dir/all: src/UtilsDir/CMakeFiles/UtilsLib.dir/all
 src/CMakeFiles/MAIN.dir/all: src/WeaponsDir/CMakeFiles/WeaponsLib.dir/all
+src/CMakeFiles/MAIN.dir/all: src/Templates/CMakeFiles/TemplateLib.dir/all
 	$(MAKE) -f src/CMakeFiles/MAIN.dir/build.make src/CMakeFiles/MAIN.dir/depend
 	$(MAKE) -f src/CMakeFiles/MAIN.dir/build.make src/CMakeFiles/MAIN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles --progress-num=3,4 "Built target MAIN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriel/Desktop/C++/super-spork/build/CMakeFiles --progress-num=3,4 "Built target MAIN"
 .PHONY : src/CMakeFiles/MAIN.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/MAIN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/MAIN.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/MAIN.dir/rule
 
 # Convenience name for target.
@@ -183,14 +205,14 @@ src/CMakeFiles/MAIN.dir/clean:
 src/CarsDir/CMakeFiles/CarsLib.dir/all:
 	$(MAKE) -f src/CarsDir/CMakeFiles/CarsLib.dir/build.make src/CarsDir/CMakeFiles/CarsLib.dir/depend
 	$(MAKE) -f src/CarsDir/CMakeFiles/CarsLib.dir/build.make src/CarsDir/CMakeFiles/CarsLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles --progress-num=1,2 "Built target CarsLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriel/Desktop/C++/super-spork/build/CMakeFiles --progress-num=1,2 "Built target CarsLib"
 .PHONY : src/CarsDir/CMakeFiles/CarsLib.dir/all
 
 # Build rule for subdir invocation for target.
 src/CarsDir/CMakeFiles/CarsLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/CMakeFiles/CarsLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 0
 .PHONY : src/CarsDir/CMakeFiles/CarsLib.dir/rule
 
 # Convenience name for target.
@@ -210,14 +232,14 @@ src/CarsDir/CMakeFiles/CarsLib.dir/clean:
 src/UtilsDir/CMakeFiles/UtilsLib.dir/all:
 	$(MAKE) -f src/UtilsDir/CMakeFiles/UtilsLib.dir/build.make src/UtilsDir/CMakeFiles/UtilsLib.dir/depend
 	$(MAKE) -f src/UtilsDir/CMakeFiles/UtilsLib.dir/build.make src/UtilsDir/CMakeFiles/UtilsLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles --progress-num=5,6 "Built target UtilsLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriel/Desktop/C++/super-spork/build/CMakeFiles --progress-num=7,8 "Built target UtilsLib"
 .PHONY : src/UtilsDir/CMakeFiles/UtilsLib.dir/all
 
 # Build rule for subdir invocation for target.
 src/UtilsDir/CMakeFiles/UtilsLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/UtilsDir/CMakeFiles/UtilsLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 0
 .PHONY : src/UtilsDir/CMakeFiles/UtilsLib.dir/rule
 
 # Convenience name for target.
@@ -237,14 +259,14 @@ src/UtilsDir/CMakeFiles/UtilsLib.dir/clean:
 src/WeaponsDir/CMakeFiles/WeaponsLib.dir/all:
 	$(MAKE) -f src/WeaponsDir/CMakeFiles/WeaponsLib.dir/build.make src/WeaponsDir/CMakeFiles/WeaponsLib.dir/depend
 	$(MAKE) -f src/WeaponsDir/CMakeFiles/WeaponsLib.dir/build.make src/WeaponsDir/CMakeFiles/WeaponsLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles --progress-num=7,8 "Built target WeaponsLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriel/Desktop/C++/super-spork/build/CMakeFiles --progress-num=9,10 "Built target WeaponsLib"
 .PHONY : src/WeaponsDir/CMakeFiles/WeaponsLib.dir/all
 
 # Build rule for subdir invocation for target.
 src/WeaponsDir/CMakeFiles/WeaponsLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/WeaponsDir/CMakeFiles/WeaponsLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 0
 .PHONY : src/WeaponsDir/CMakeFiles/WeaponsLib.dir/rule
 
 # Convenience name for target.
@@ -256,6 +278,33 @@ WeaponsLib: src/WeaponsDir/CMakeFiles/WeaponsLib.dir/rule
 src/WeaponsDir/CMakeFiles/WeaponsLib.dir/clean:
 	$(MAKE) -f src/WeaponsDir/CMakeFiles/WeaponsLib.dir/build.make src/WeaponsDir/CMakeFiles/WeaponsLib.dir/clean
 .PHONY : src/WeaponsDir/CMakeFiles/WeaponsLib.dir/clean
+
+#=============================================================================
+# Target rules for target src/Templates/CMakeFiles/TemplateLib.dir
+
+# All Build rule for target.
+src/Templates/CMakeFiles/TemplateLib.dir/all:
+	$(MAKE) -f src/Templates/CMakeFiles/TemplateLib.dir/build.make src/Templates/CMakeFiles/TemplateLib.dir/depend
+	$(MAKE) -f src/Templates/CMakeFiles/TemplateLib.dir/build.make src/Templates/CMakeFiles/TemplateLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gabriel/Desktop/C++/super-spork/build/CMakeFiles --progress-num=5,6 "Built target TemplateLib"
+.PHONY : src/Templates/CMakeFiles/TemplateLib.dir/all
+
+# Build rule for subdir invocation for target.
+src/Templates/CMakeFiles/TemplateLib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/Templates/CMakeFiles/TemplateLib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 0
+.PHONY : src/Templates/CMakeFiles/TemplateLib.dir/rule
+
+# Convenience name for target.
+TemplateLib: src/Templates/CMakeFiles/TemplateLib.dir/rule
+
+.PHONY : TemplateLib
+
+# clean rule for target.
+src/Templates/CMakeFiles/TemplateLib.dir/clean:
+	$(MAKE) -f src/Templates/CMakeFiles/TemplateLib.dir/build.make src/Templates/CMakeFiles/TemplateLib.dir/clean
+.PHONY : src/Templates/CMakeFiles/TemplateLib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

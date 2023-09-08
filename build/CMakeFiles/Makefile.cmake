@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
   "../src/CMakeLists.txt"
   "../src/CarsDir/CMakeLists.txt"
+  "../src/Templates/CMakeLists.txt"
   "../src/UtilsDir/CMakeLists.txt"
   "../src/WeaponsDir/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in"
@@ -120,6 +121,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CarsDir/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/UtilsDir/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/WeaponsDir/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Templates/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -128,4 +130,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CarsDir/CMakeFiles/CarsLib.dir/DependInfo.cmake"
   "src/UtilsDir/CMakeFiles/UtilsLib.dir/DependInfo.cmake"
   "src/WeaponsDir/CMakeFiles/WeaponsLib.dir/DependInfo.cmake"
+  "src/Templates/CMakeFiles/TemplateLib.dir/DependInfo.cmake"
   )

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample
+CMAKE_SOURCE_DIR = /home/gabriel/Desktop/C++/super-spork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build
+CMAKE_BINARY_DIR = /home/gabriel/Desktop/C++/super-spork/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CarsDir/CMakeFiles/progress.marks
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 0
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles /home/gabriel/Desktop/C++/super-spork/build/src/CarsDir/CMakeFiles/progress.marks
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/clean
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/preinstall
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/preinstall
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CarsDir/CMakeFiles/CarsLib.dir/rule:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/CMakeFiles/CarsLib.dir/rule
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f CMakeFiles/Makefile2 src/CarsDir/CMakeFiles/CarsLib.dir/rule
 .PHONY : src/CarsDir/CMakeFiles/CarsLib.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ CarsLib: src/CarsDir/CMakeFiles/CarsLib.dir/rule
 
 # fast build rule for target.
 CarsLib/fast:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f src/CarsDir/CMakeFiles/CarsLib.dir/build.make src/CarsDir/CMakeFiles/CarsLib.dir/build
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f src/CarsDir/CMakeFiles/CarsLib.dir/build.make src/CarsDir/CMakeFiles/CarsLib.dir/build
 .PHONY : CarsLib/fast
 
 Ford.o: Ford.cpp.o
@@ -131,7 +131,7 @@ Ford.o: Ford.cpp.o
 
 # target to build an object file
 Ford.cpp.o:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f src/CarsDir/CMakeFiles/CarsLib.dir/build.make src/CarsDir/CMakeFiles/CarsLib.dir/Ford.cpp.o
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f src/CarsDir/CMakeFiles/CarsLib.dir/build.make src/CarsDir/CMakeFiles/CarsLib.dir/Ford.cpp.o
 .PHONY : Ford.cpp.o
 
 Ford.i: Ford.cpp.i
@@ -140,7 +140,7 @@ Ford.i: Ford.cpp.i
 
 # target to preprocess a source file
 Ford.cpp.i:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f src/CarsDir/CMakeFiles/CarsLib.dir/build.make src/CarsDir/CMakeFiles/CarsLib.dir/Ford.cpp.i
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f src/CarsDir/CMakeFiles/CarsLib.dir/build.make src/CarsDir/CMakeFiles/CarsLib.dir/Ford.cpp.i
 .PHONY : Ford.cpp.i
 
 Ford.s: Ford.cpp.s
@@ -149,7 +149,7 @@ Ford.s: Ford.cpp.s
 
 # target to generate assembly for a file
 Ford.cpp.s:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f src/CarsDir/CMakeFiles/CarsLib.dir/build.make src/CarsDir/CMakeFiles/CarsLib.dir/Ford.cpp.s
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f src/CarsDir/CMakeFiles/CarsLib.dir/build.make src/CarsDir/CMakeFiles/CarsLib.dir/Ford.cpp.s
 .PHONY : Ford.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

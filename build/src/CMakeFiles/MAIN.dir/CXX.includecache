@@ -10,6 +10,8 @@
 iostream
 -
 
+../src/Templates/sum.hpp
+
 ../src/UtilsDir/add.hpp
 iostream
 -
@@ -18,13 +20,15 @@ iostream
 iostream
 -
 
-/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/main.cpp
+/home/gabriel/Desktop/C++/super-spork/src/main.cpp
 iostream
 -
 Ford.hpp
-/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/Ford.hpp
+/home/gabriel/Desktop/C++/super-spork/src/Ford.hpp
 add.hpp
-/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/add.hpp
+/home/gabriel/Desktop/C++/super-spork/src/add.hpp
 weapon.hpp
-/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/weapon.hpp
+/home/gabriel/Desktop/C++/super-spork/src/weapon.hpp
+sum.hpp
+/home/gabriel/Desktop/C++/super-spork/src/sum.hpp
 

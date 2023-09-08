@@ -3,6 +3,7 @@
 
 src/CMakeFiles/MAIN.dir/main.cpp.o
  ../src/CarsDir/Ford.hpp
+ ../src/Templates/sum.hpp
  ../src/UtilsDir/add.hpp
  ../src/WeaponsDir/weapon.hpp
- /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/main.cpp
+ /home/gabriel/Desktop/C++/super-spork/src/main.cpp

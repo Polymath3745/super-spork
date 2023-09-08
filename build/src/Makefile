@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample
+CMAKE_SOURCE_DIR = /home/gabriel/Desktop/C++/super-spork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build
+CMAKE_BINARY_DIR = /home/gabriel/Desktop/C++/super-spork/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CMakeFiles/progress.marks
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 0
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles /home/gabriel/Desktop/C++/super-spork/build/src/CMakeFiles/progress.marks
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/MAIN.dir/rule:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/MAIN.dir/rule
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/MAIN.dir/rule
 .PHONY : src/CMakeFiles/MAIN.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ MAIN: src/CMakeFiles/MAIN.dir/rule
 
 # fast build rule for target.
 MAIN/fast:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f src/CMakeFiles/MAIN.dir/build.make src/CMakeFiles/MAIN.dir/build
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f src/CMakeFiles/MAIN.dir/build.make src/CMakeFiles/MAIN.dir/build
 .PHONY : MAIN/fast
 
 main.o: main.cpp.o
@@ -131,7 +131,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f src/CMakeFiles/MAIN.dir/build.make src/CMakeFiles/MAIN.dir/main.cpp.o
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f src/CMakeFiles/MAIN.dir/build.make src/CMakeFiles/MAIN.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -140,7 +140,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f src/CMakeFiles/MAIN.dir/build.make src/CMakeFiles/MAIN.dir/main.cpp.i
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f src/CMakeFiles/MAIN.dir/build.make src/CMakeFiles/MAIN.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(MAKE) -f src/CMakeFiles/MAIN.dir/build.make src/CMakeFiles/MAIN.dir/main.cpp.s
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(MAKE) -f src/CMakeFiles/MAIN.dir/build.make src/CMakeFiles/MAIN.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gabriel/Desktop/C++/super-spork/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

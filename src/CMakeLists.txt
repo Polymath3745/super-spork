@@ -15,6 +15,7 @@ set(CMAKE_BUILD_TYPE Debug)
 add_subdirectory(CarsDir)
 add_subdirectory(UtilsDir)
 add_subdirectory(WeaponsDir)
+add_subdirectory(Templates)
 
 # you can use the project name as executable ${PROJECT_NAME}
 # or you can arbitrarily choose a name for the executable
@@ -30,10 +31,12 @@ add_executable(MAIN main.cpp)
 target_include_directories(MAIN PUBLIC CarsDir)
 target_include_directories(MAIN PRIVATE UtilsDir)
 target_include_directories(MAIN PRIVATE WeaponsDir)
+target_include_directories(MAIN PRIVATE Templates)
 # can also list the directories like this : target_include_directories(MAIN PRIVATE ${CARS} ${UTILS})
 
 # link directories for libraries in subdirectories to the executable target
 target_link_libraries(MAIN PUBLIC CarsLib)
 target_link_libraries(MAIN PRIVATE UtilsLib)
 target_link_libraries(MAIN PRIVATE WeaponsLib)
+target_link_libraries(MAIN PRIVATE TemplateLib)
 # can also list the libraries like this : target_link_libraries(MAIN ${CARS} ${UTILS})

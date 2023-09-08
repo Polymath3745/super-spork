@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/src/main.cpp" "/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CMakeFiles/MAIN.dir/main.cpp.o"
+  "/home/gabriel/Desktop/C++/super-spork/src/main.cpp" "/home/gabriel/Desktop/C++/super-spork/build/src/CMakeFiles/MAIN.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,13 +13,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/CarsDir"
   "../src/UtilsDir"
   "../src/WeaponsDir"
+  "../src/Templates"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/CarsDir/CMakeFiles/CarsLib.dir/DependInfo.cmake"
-  "/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/UtilsDir/CMakeFiles/UtilsLib.dir/DependInfo.cmake"
-  "/home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/src/WeaponsDir/CMakeFiles/WeaponsLib.dir/DependInfo.cmake"
+  "/home/gabriel/Desktop/C++/super-spork/build/src/CarsDir/CMakeFiles/CarsLib.dir/DependInfo.cmake"
+  "/home/gabriel/Desktop/C++/super-spork/build/src/UtilsDir/CMakeFiles/UtilsLib.dir/DependInfo.cmake"
+  "/home/gabriel/Desktop/C++/super-spork/build/src/WeaponsDir/CMakeFiles/WeaponsLib.dir/DependInfo.cmake"
+  "/home/gabriel/Desktop/C++/super-spork/build/src/Templates/CMakeFiles/TemplateLib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

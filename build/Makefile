@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample
+CMAKE_SOURCE_DIR = /home/gabriel/Desktop/C++/super-spork
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build
+CMAKE_BINARY_DIR = /home/gabriel/Desktop/C++/super-spork/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel565/gabe/Desktop/projects/C++_practice/CppDebugExample/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gabriel/Desktop/C++/super-spork/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -162,6 +162,19 @@ WeaponsLib/fast:
 	$(MAKE) -f src/WeaponsDir/CMakeFiles/WeaponsLib.dir/build.make src/WeaponsDir/CMakeFiles/WeaponsLib.dir/build
 .PHONY : WeaponsLib/fast
 
+#=============================================================================
+# Target rules for targets named TemplateLib
+
+# Build rule for target.
+TemplateLib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TemplateLib
+.PHONY : TemplateLib
+
+# fast build rule for target.
+TemplateLib/fast:
+	$(MAKE) -f src/Templates/CMakeFiles/TemplateLib.dir/build.make src/Templates/CMakeFiles/TemplateLib.dir/build
+.PHONY : TemplateLib/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,6 +187,7 @@ help:
 	@echo "... CarsLib"
 	@echo "... UtilsLib"
 	@echo "... WeaponsLib"
+	@echo "... TemplateLib"
 .PHONY : help
 
 
